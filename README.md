@@ -2,10 +2,11 @@
 Projecto iniciado em Novembro
 
 ## Content
-* Simple web page
-* Web page with styles
-* Web page with images
-* Web page with tables
-* Web page with CSS
-* Web page with javascript
-* Web page with bootstrap
+### Web
+1. Simple web page
+1. Web page with styles
+1. Web page with images
+1. Web page with tables
+1. Web page with CSS
+1. Web page with javascript
+1. Web page with bootstrap
