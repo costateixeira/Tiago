@@ -8,5 +8,3 @@ Projecto iniciado em Novembro
 * Web page with CSS
 * Web page with javascript
 * Web page with bootstrap
-
-
