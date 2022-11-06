@@ -5,6 +5,7 @@ Projecto iniciado em Novembro
 * Simple web page
 * Web page with styles
 * Web page with images
+* Web page with tables
 * Web page with CSS
 * Web page with javascript
 * Web page with bootstrap
