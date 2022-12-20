@@ -1,0 +1,27 @@
+h1 {
+    text-align: center;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+
+img {
+    width: 40%;
+    height: auto;
+   }
+  
+   img {
+    border: 3px round #fffdfd;
+    border-radius: 6px;
+    padding: 3px;
+    
+  }
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+  
