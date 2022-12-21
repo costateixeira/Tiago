@@ -4,7 +4,6 @@
 <head>
     <meta charset="utf-8"/> 
     <meta name="viewport" cpntent="width=device-width, initial-scale=1"/>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">    
     <link rel="stylesheet" href="mystyle.css">
     
        
@@ -13,7 +12,8 @@
 <h1>Os principais rios portugueses</h1>
 
 <body>
-    <p>
+  <p>
+    
   Um rio é um curso de água, usualmente de água doce, que flui por gravidade em direção a um oceano, um lago, um mar, ou um outro rio.  <br/>
   Os principais rios portugueses são os que têm um maior caudal, seja porque recebem água de rios mais pequenos, chamados afluentes, ou porque estão localizados numa zona onde a 
   chuva é abundante, como acontece no norte do país.
@@ -39,6 +39,51 @@
     </table>
   </p>
 
+  <style>
+    .container {
+      position: relative;
+      width: 100%;
+    }
+    
+    .image {
+      opacity: 1;
+      display: block;
+      width: 45%;
+      height: auto;
+      transition: .5s ease;
+      backface-visibility: hidden;
+    }
+
+
+    .middle {
+      transition: .5s ease;
+      opacity: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%)
+    }
+    
+    .container:hover .image {
+      opacity: 0.5;
+    }
+    
+    .container:hover .middle {
+      opacity: 0.8;
+    }
+    
+    .text {
+      background-color: #ffffff;
+      color: rgba(0, 0, 0, 0.966);
+      font-size: 16px;
+      padding: 16px 32px;
+    }
+
+
+    </style>
+
+
 
 <p>
 <h2>Rio Tejo</h2>
@@ -46,7 +91,16 @@
 Segundo Sílio Itálico, Tago, como era designado o Tejo, seria o nome de um rei Ibero que foi cruelmente assassinado por Asdrúbal e que teria o mesmo nome do rio.<br/>
 A onda que assolou Portugal no dia do terramoto de 1755 subiu o rio e inundou Lisboa e outras localidades na margem. Porém, foi neste rio que começou a maior aventura dos portugueses. Do Tejo partiram as naus e as caravelas dos grandes Descobrimentos. <br/>
 
-  <p><img src="https://cdn1.newsplex.pt/fotos/2015/6/14/467709.jpg?type=Artigo"/></p>
+<div class="container">
+  <div style="width:100%;margin-left:auto;margin-right:auto">
+    <img src="https://cdn1.newsplex.pt/fotos/2015/6/14/467709.jpg?type=Artigo" alt="Avatar" class="image">
+    <div class="middle">
+      <div class="text">Rio Tejo</div>
+    </div>
+    </img>
+  </div>
+</div>
+
 </p>
 
 <p>
@@ -56,7 +110,17 @@ Antigamente, o rio servia de ligação entre a região do Douro e o Porto, muito
 Nele rolavam, noutros tempos, brilhantes pedrinhas que se descobriu serem de ouro. Daí o nome dado a este rio: Douro. Já outra versão diz que o nome do rio deriva do latim duris, ou seja, 'duro'. <br/>
 A UNESCO incluiu, em 14 de Dezembro de 2001, a Região Vinhateira do Alto Douro na lista dos locais que são Património da Humanidade, na categoria de paisagem cultural.<br/>
 
-  <p><img src="https://offloadmedia.feverup.com/portosecreto.co/wp-content/uploads/2020/05/17091439/33624748296_e02359d422_k-1024x660.jpg"/></p>
+<p>
+<div class="container">
+  <div style="width:100%;margin-left:auto;margin-right:auto">
+    <img src="https://offloadmedia.feverup.com/portosecreto.co/wp-content/uploads/2020/05/17091439/33624748296_e02359d422_k-1024x660.jpg" alt="Avatar" class="image">
+    <div class="middle">
+      <div class="text">Rio Douro</div>
+    </div>
+    </img>
+  </div>
+</div>
+ </p>
 </p>
 
 
@@ -66,15 +130,35 @@ O rio Guadiana é um rio da Península Ibérica que nasce a uma altitude de cerc
 No passado, o Guadiana foi rio de pescadores e dos minérios que por ele eram transportados. Hoje, as minas de são Domingos fecharam, os pescadores são cada vez menos, mas alguns ainda mantêm vivas as artes de pesca tradicionais. <br/>
 Ao desaguar no Algarve, o Guadiana forma uma cascata com 20 metros de altura, Pulo de Lobo, que proporciona uma paisagem mágica.<br/>
 
-  <img  src="https://www.tribunaalentejo.pt/sites/default/files/styles/article_teaser/public/field/image/mertola_5.png?itok=FhCAYCEE"/>
+<p>
+<div class="container">
+  <div style="width:100%;margin-left:auto;margin-right:auto">
+    <img src="https://www.tribunaalentejo.pt/sites/default/files/styles/article_teaser/public/field/image/mertola_5.png?itok=FhCAYCEE" alt="Avatar" class="image">
+    <div class="middle">
+      <div class="text">Rio Guadiana</div>
+    </div>
+    </img>
+  </div>
+</div>
+</p>
 </p>
   
 <p>
 <h2>Rio Mondego</h2>
 O rio Mondego é o quinto maior rio português com um comprimento de aproximadamente 258km e o primeiro de todos os que têm o seu curso inteiramente em Portugal. Nasce na serra da Estrela, percorre toda a região do Centro e tem a sua foz no oceano Atlântico, junto à cidade da Figueira da Foz.<br/> 
 Este rio é conhecido pelas suas águas, acredita-se que têm o poder de curar doenças de pele, e por isso, são muito usadas em termas. Além disso, O Mondego alberga várias espécies de aves.
-    
-  <img src="https://www.insonias.pt/wp-content/uploads/2017/07/Coimbra-Rio-Mondego-Portugal.jpg"/>
+  
+<p>
+<div class="container">
+  <div style="width:100%;margin-left:auto;margin-right:auto">
+    <img src="https://www.insonias.pt/wp-content/uploads/2017/07/Coimbra-Rio-Mondego-Portugal.jpg" alt="Avatar" class="image">
+    <div class="middle">
+      <div class="text">Rio Guadiana</div>
+    </div>
+    </img>
+  </div>
+</div>
+  </p>
 </p>
 
 <p>
@@ -82,8 +166,18 @@ Este rio é conhecido pelas suas águas, acredita-se que têm o poder de curar d
 O Sado é um rio português, que nasce a 230m de altitude, na Serra da Vigia em Ourique e percorre 180 quilómetros até desaguar no oceano Atlântico perto de Setúbal e é dos poucos rios portugueses que corre de sul para norte. <br/>
 É um dos poucos rios na europa onde, no seu estuário, vivem golfinhos roazes. Este estuário está classificado como Reserva Natural há mais de 30 anos. <br/>
 Além de ser o habitat de diversos animais, também alberga vários tipos de plantas, tendo um ecossistema diversificado. <br/>
-  
-<img src="https://www.ludyesfera.com/imagens/passeiodebarcoemtroia7.JPG"/>
+ 
+<p>
+<div class="container">
+  <div style="width:100%;margin-left:auto;margin-right:auto">
+    <img src="https://www.ludyesfera.com/imagens/passeiodebarcoemtroia7.JPG" alt="Avatar" class="image">
+    <div class="middle">
+      <div class="text">Rio Sado</div>
+    </div>
+    </img>
+  </div>
+</div>
+</p>
 </p>
 </p>
 
